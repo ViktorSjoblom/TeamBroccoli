@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    margin: 20px;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    height: 94vh;
+    transition: all 1s ease;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 5% 0;
+}
+
+header img {
+    width: 15%;
+    max-width: 60px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav li {
+    list-style: none;
+    margin: 0 1.2vw 0vh 1.2vw;
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+nav li:hover {
+    color: #4d4d4d;
+}
+
+nav li:last-child {
+    background-color: #557c3e;
+    color: white;
+    border-radius: 15px;
+    padding: 7px 10px;
+    margin: 0 0 0 1.2vw;
+    align-self: center;
+}
+
+nav li:last-child:hover {
+    background-color: #83b94d;
+}
+
+.content-main {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.main h1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+}
+
+.main .broccoli1 {    
+    width: 300px;
+    align-self: center;
+    transition: all 0.5s ease;
+}
+
+.main p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+footer {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer li {
+    background-color:#4A8319;
+    color: white;
+    border-radius: 15px;
+    padding: 7px 10px;
+    text-align: center;
+}
+
+@media (min-width: 330px) {
+    .main li:last-child::after {
+            content: " now";
+    }
+
+@media (min-width: 600px) {
+    .main {
+        margin: 20px 60px;
+    }
+
+    .main .broccoli1 {
+        transform: scale(1.5,1.5);
+    }
+
+    h1 {
+        margin: 0 0 60px 0;
+    }
+    
+    p {
+        margin: 60px 0 0 0;
+    }
+}
