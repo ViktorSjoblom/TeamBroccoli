@@ -196,7 +196,8 @@ footer {
     justify-content: space-between;
     align-items: center;
     height: 10vh;
-    tjenare
+    transition: all 1s ease;
+    hej
 }
 
 footer ul {
