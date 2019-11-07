@@ -85,7 +85,6 @@ nav li:last-child:hover {
 }
 
 .gray {
-    height: 100vh;
     transition: all 1s ease;
     background-color: #F6F6F6;
     height: auto;
@@ -93,7 +92,7 @@ nav li:last-child:hover {
     align-items: center;
 }
 
-.about {
+.about { 
     margin: 20px 0 20px 20px;
 }
 
@@ -117,11 +116,11 @@ nav li:last-child:hover {
 }
 
 .about img {
-    width: 60%;
-    max-width: 240px;
+    width: 100%;
+    max-width: 300px;
     display: block;
     float: right;
-    margin: 20px 0 0 0;
+    margin: 50px 0 0 20px;
 }
 
 .about h2 {
@@ -166,7 +165,7 @@ nav li:last-child:hover {
 }
 
 footer {
-    margin: 20px;
+    margin: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -177,12 +176,19 @@ footer ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 footer li {
-    border-radius: 15px;
-    padding: 7px 10px;
-    text-align: center;
+    list-style: none;
+    margin: 0 1.2vw 0vh 1.2vw;
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+footer li:hover {
+    color: #4d4d4d;
 }
 
 footer img {
@@ -206,6 +212,10 @@ footer img {
 
     .main .broccoli1 {
         transform: scale(1.5,1.5);
+    }
+
+    .gray {
+        height: 100vh;
     }
 
     h1 {
