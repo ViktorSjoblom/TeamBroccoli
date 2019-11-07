@@ -84,7 +84,6 @@ nav li:last-child:hover {
     font-size: 1rem;
 }
 
-
 .gray {
     height: 94vh;
     transition: all 1s ease;
@@ -114,29 +113,53 @@ nav li:last-child:hover {
 }
 
 .about img {
-    width: 80%;
-    max-width: 350px;
+    width: 100%;
+    max-width: 400px;
     margin: 4vh 0 1vh 0;
     display: block;
     float: right;
 }
 
-.about h2 { 
+.about h2 {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
+    line-height: 25px;
     color: #FFFFFF;
     opacity: 0.9;
     background-color: #828282;
     padding: 3px;
+    min-width: 160px;
+    max-width: 142px;
+    margin-bottom: 5px;
     display: inline-block;
-    margin-block-start: 0em;
-
 }
 
-.paragraf {
+.about .history {
+    min-width: 175px;
+}
+
+.about p {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        opacity: 0.9;
+        margin-block-start: 0em;
+        margin: 10px 0;
+}
+
+.about .paragraf {
     border: red solid 1px;
+    margin: 5% 0;
+    width: 100%;
+}
+
+.paragraf p {
+    margin: 0 20px 0 0;
 }
 
 footer {
@@ -157,6 +180,11 @@ footer li {
     border-radius: 15px;
     padding: 7px 10px;
     text-align: center;
+}
+
+footer img {
+    width: 15%;
+    max-width: 60px;
 }
 
 @media (min-width: 330px) {
@@ -180,5 +208,8 @@ footer li {
     p {
         margin: 60px 0 0 0;
     }
+
+    .about .paragraf {
+        width: 50%;
 }
 
