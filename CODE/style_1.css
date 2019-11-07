@@ -11,7 +11,7 @@ body {
 .main {
     display: flex;
     flex-flow: column;
-    height: 94vh;
+    height: 100vh;
     transition: all 1s ease;
     margin: 20px;
 }
@@ -85,10 +85,10 @@ nav li:last-child:hover {
 }
 
 .gray {
-    height: 94vh;
+    height: 100vh;
     transition: all 1s ease;
     background-color: #F6F6F6;
-    height: 100vh;
+    height: auto;
     display: flex;
     align-items: center;
 }
@@ -97,27 +97,31 @@ nav li:last-child:hover {
     margin: 20px 0 20px 20px;
 }
 
+.rubrik {
+    margin-top: 20px;
+}
+
 .about h3 {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 1.3rem;
     color: #FFFFFF;
     opacity: 0.9;
-    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    text-shadow: 0px 4px 20px rgba(187, 61, 61, 0.1);
     background-color: #828282;
-    padding: 0 0x;
     max-width: 200px;
     line-height: 45px;
     display: inline;
+    
 }
 
 .about img {
-    width: 100%;
-    max-width: 400px;
-    margin: 4vh 0 1vh 0;
+    width: 60%;
+    max-width: 240px;
     display: block;
     float: right;
+    margin: 20px 0 0 0;
 }
 
 .about h2 {
@@ -132,7 +136,7 @@ nav li:last-child:hover {
     padding: 3px;
     min-width: 160px;
     max-width: 142px;
-    margin-bottom: 5px;
+    margin: 20px 0 10px 0;
     display: inline-block;
 }
 
@@ -153,7 +157,6 @@ nav li:last-child:hover {
 }
 
 .about .paragraf {
-    border: red solid 1px;
     margin: 5% 0;
     width: 100%;
 }
@@ -192,6 +195,10 @@ footer img {
             content: " now";
     }
 
+    .about img {
+    }
+}
+
 @media (min-width: 600px) {
     .main {
         margin: 20px 60px;
@@ -211,5 +218,17 @@ footer img {
 
     .about .paragraf {
         width: 50%;
-}
+    }
 
+    .about img {
+        width: 60%;
+        max-width: 400px;
+    }
+    .about h3 {
+        font-size: 1.8rem;
+        }
+    
+    .about  {
+        margin: 20px 0 20px 60px;
+    }
+}
