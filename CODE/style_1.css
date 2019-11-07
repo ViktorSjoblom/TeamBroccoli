@@ -91,6 +91,7 @@ nav li:last-child:hover {
     height: auto;
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 .about { 
@@ -163,6 +164,19 @@ nav li:last-child:hover {
 
 .paragraf p {
     margin: 0 20px 0 0;
+}
+
+.nutrition img {
+    width: 100vw;
+}
+
+.nutrition p {
+    margin: 15vw 0 20vw 7vw;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 footer {
