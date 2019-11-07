@@ -37,8 +37,13 @@ nav ul {
 nav li {
     list-style: none;
     margin: 0 1.2vw 0vh 1.2vw;
+}
+
+nav a {
     font-size: 0.9rem;
     font-family: 'Roboto', sans-serif;
+    color: black;
+    text-decoration: none;
     cursor: pointer;
 }
 
@@ -52,7 +57,13 @@ nav li:last-child {
     border-radius: 15px;
     padding: 7px 10px;
     margin: 0 0 0 1.2vw;
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
     align-self: center;
+}
+
+nav li:last-child a {
+    color: white;
 }
 
 nav li:last-child:hover {
@@ -166,11 +177,12 @@ nav li:last-child:hover {
 }
 
 footer {
-    margin: 60px;
+    margin: 20px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 10vh;
+    transition: all 1s ease;
 }
 
 footer ul {
@@ -200,9 +212,6 @@ footer img {
 @media (min-width: 330px) {
     .main li:last-child::after {
             content: " now";
-    }
-
-    .about img {
     }
 }
 
@@ -242,4 +251,7 @@ footer img {
     .about  {
         margin: 20px 0 20px 60px;
     }
+
+    footer {
+        margin: 20px 60px;
 }
