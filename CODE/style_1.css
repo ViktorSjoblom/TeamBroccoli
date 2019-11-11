@@ -93,7 +93,7 @@ nav li:last-child:hover {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
-    margin: 20px;
+    margin: 50px;
 }
 
 .gray {
@@ -187,6 +187,49 @@ nav li:last-child:hover {
     width: 150vw;
     max-width: 600px;
     margin: 0 0 0 -25vw;
+}
+
+.review {
+    height: auto;
+    margin: 40px 20px 0px;
+}
+
+.woman-desktop {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.green-1, .green-2 {
+    visibility: hidden;
+}
+
+.review h4 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 0px 0px 20px;
+    padding: 0px;
+}
+
+.review h4::before {
+    content: "\"";
+}
+
+.review h4::after {
+    content: "\"";
+}
+
+.review-1 {
+    height: auto;
+}
+
+.review-2 {
+    height: auto;
+}
+
+.broccoli-desktop {
+    width: 100%;
+    margin-bottom: 0px;
 }
 
 .top {
@@ -375,6 +418,77 @@ footer img {
         max-width: 900px;
         margin: 0 0 0 -22vw;
     }
+
+    .review-1 {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .woman-desktop {
+        width: 50%;
+        max-width: 608px;
+        max-height: 400px;
+    }
+
+    .review-1-text {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 35%;
+        min-width: 250px;
+        margin: 60px;
+    }
+
+    .green-1 {
+        align-self: flex-start;
+        color: green;
+        font-size: 4rem;
+        visibility: visible;
+        font-family: 'Catamaran', sans-serif;
+    }
+
+    .review h4 {
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        margin: 20px;
+    }
+
+    .review h4::before {
+        content: "";
+    }
+
+    .review h4::after {
+        content: "";
+    }
+
+    .green-2 {
+        align-self: flex-end;
+        color: green;
+        font-size: 4rem;
+        visibility: visible;
+        font-family: 'Catamaran', sans-serif;
+    }
+
+    .review-2 {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .broccoli-desktop {
+        width: 50%;
+        max-width: 608px;
+        max-height: 400px;
+    }
+    
 
     .bottom {
         font-size: 25px;
