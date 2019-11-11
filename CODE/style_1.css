@@ -474,6 +474,7 @@ footer img {
 }
 .heading-bag {
     display: none;
+<<<<<<< Updated upstream
 }
 
 .selling {
@@ -492,6 +493,26 @@ footer img {
     display: none;
 }
 
+=======
+}
+
+.selling {
+    display: none;
+}
+
+.selling img {
+    display: none;
+}
+
+.selling h6 {
+    display: none;
+}
+
+.selling p {
+    display: none;
+}
+
+>>>>>>> Stashed changes
 
 .broccoli-bag-desktop {
     visibility: visible;
