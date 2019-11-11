@@ -130,7 +130,7 @@ nav li:last-child:hover {
 
 .about img {
     width: 100%;
-    max-width: 100px;
+    max-width: 300px;
     display: block;
     float: right;
     margin: 50px 0 0 20px;
@@ -174,7 +174,7 @@ nav li:last-child:hover {
 }
 
 .paragraf p {
-    margin: 0 25px 0 0;
+    margin: 0 20px 0 0;
 }
 
 .nutrition {
@@ -290,6 +290,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     height: 10vh;
+    transition: all 1s ease;
 }
 
 footer ul {
@@ -410,6 +411,10 @@ footer img {
     .buy-now p {
         font-size: 16px;
         margin-top: 0vw;
+    }
+
+    footer {
+        margin: 20px 60px;
     }
 
 }
@@ -550,8 +555,5 @@ color: white;
     align-items: center;
     margin: 10vw 10vw 0 0;
 }
-
-
-
 
 }
