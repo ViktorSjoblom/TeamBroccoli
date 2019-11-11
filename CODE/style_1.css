@@ -202,14 +202,12 @@ nav li:last-child:hover {
     font-style: normal;
     font-weight: bold;
     font-size: 35px;
-    line-height: 52px;
     text-align: center;
     color: #333333;
-    line-height: 20vw;
 }
 
 .broccoli-bag-desktop {
-    visibility: hidden;
+    display: none;
 }
 
 .heading-bag-desktop {
@@ -387,7 +385,7 @@ footer img {
     }
 
     .heading-bag {
-        margin-top: 90vw;
+        margin-top: 20vw;
     }
 
     .buy-now {
@@ -456,25 +454,51 @@ footer img {
     .top {
         visibility: visible;
         font-size: 20px;
-        line-height: 35px;
         margin: -65vw 0 0 20vw;
         position: absolute;
         top: 1;
         bottom: 1;
+        font-style: normal;
+        font-weight: normal;
+        color: #FFFFFF;
+        opacity: 0.9;
+        text-shadow: 0px 4px 20px rgba(187, 61, 61, 0.1);
+        background-color: #828282;
+        line-height: 30px;
+        display: inline;
     }
 
+
 .broccoli-bag {
-    visibility: hidden;
+    display: none;
 }
 .heading-bag {
-    visibility: hidden;
+    display: none;
 }
+
+.selling {
+    display: none;
+}
+
+.selling img {
+    display: none;
+}
+
+.selling h6 {
+    display: none;
+}
+
+.selling p {
+    display: none;
+}
+
 
 .broccoli-bag-desktop {
     visibility: visible;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    margin-bottom: 9vw;
 
 }
 
@@ -498,6 +522,7 @@ footer img {
     text-align: center;
     color: #000000;
     margin-bottom: 3vw;
+    margin-block-start: 0em;
 }
 
 .broccoli-div p {
@@ -509,6 +534,7 @@ footer img {
     color: #000000;
     text-align: center;
     margin-top: 10px;
+    margin-bottom: -30px;  
 }
 
 
@@ -539,10 +565,8 @@ color: white;
     width: 80vw;
     height: 429px;
     background: #F2F2F2;
-    display: flex;
     flex-direction: column;
     align-items: center;
     margin: 10vw 10vw 0 0;
 }
-
 }
