@@ -599,13 +599,6 @@ footer img {
 }
 .heading-bag {
     display: none;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 }
 
 .selling {
@@ -624,11 +617,7 @@ footer img {
     display: none;
 }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
 }
-
 .selling {
     display: none;
 }
@@ -644,12 +633,6 @@ footer img {
 .selling p {
     display: none;
 }
-
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 
 .broccoli-bag-desktop {
     visibility: visible;
@@ -657,7 +640,6 @@ footer img {
     flex-direction: row;
     justify-content: center;
     margin-bottom: 9vw;
-
 }
 
 .broccoli-div {
@@ -727,4 +709,5 @@ color: white;
     align-items: center;
     margin: 10vw 10vw 0 0;
 }
+
 }
