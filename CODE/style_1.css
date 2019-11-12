@@ -99,7 +99,6 @@ nav li:last-child:hover {
 .gray {
     transition: all 1s ease;
     background-color: #F6F6F6;
-    height: auto;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -233,7 +232,7 @@ nav li:last-child:hover {
 }
 
 .top {
-    visibility: hidden;
+    display: none;
     margin: 15vw 0 20vw 7vw;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -243,7 +242,7 @@ nav li:last-child:hover {
 }
 
 .bottom {
-    margin: 15vw 0 20vw 7vw;
+    margin: 15vw 20px 20vw 20px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -258,6 +257,7 @@ nav li:last-child:hover {
     font-size: 35px;
     text-align: center;
     color: #333333;
+    margin-top: 10%;
 }
 
 .broccoli-bag-desktop {
@@ -265,13 +265,18 @@ nav li:last-child:hover {
 }
 
 .heading-bag-desktop {
-    visibility: hidden;
+    display: none;
+}
+
+.broccoli-div {
+    display: none;
 }
 
 .broccoli-bag {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
+    margin-bottom: 60px;
 }
 
 .selling {
@@ -566,9 +571,10 @@ footer img {
         margin: 5vw 0 0 40vw;
     }
 
+
     .gray {
         width: auto;
-        height: 100vw;
+        height: 95vw;
         overflow: hidden;
     }
 
@@ -577,7 +583,7 @@ footer img {
     }
 
     .top {
-        visibility: visible;
+        display: block;
         font-size: 20px;
         margin: -65vw 0 0 20vw;
         position: absolute;
@@ -585,52 +591,18 @@ footer img {
         bottom: 1;
         font-style: normal;
         font-weight: normal;
-        color: #FFFFFF;
-        opacity: 0.9;
-        text-shadow: 0px 4px 20px rgba(187, 61, 61, 0.1);
-        background-color: #828282;
+        color: black;
         line-height: 30px;
-        display: inline;
     }
-
 
 .broccoli-bag {
     display: none;
 }
+
+.selling {
+    display: none;
+}
 .heading-bag {
-    display: none;
-}
-
-.selling {
-    display: none;
-}
-
-.selling img {
-    display: none;
-}
-
-.selling h6 {
-    display: none;
-}
-
-.selling p {
-    display: none;
-}
-
-}
-.selling {
-    display: none;
-}
-
-.selling img {
-    display: none;
-}
-
-.selling h6 {
-    display: none;
-}
-
-.selling p {
     display: none;
 }
 
@@ -639,7 +611,7 @@ footer img {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 9vw;
+    margin: 0 0 9vw 0;
 }
 
 .broccoli-div {
@@ -683,7 +655,7 @@ color: white;
 }
 
 .heading-bag-desktop {
-    visibility: visible;
+    display: block;
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
